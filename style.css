@@ -1,19 +1,25 @@
 body {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(242, 240, 240);
 }
-div {
-  background: rgb(240, 240, 240);
+/* div {
+  background: rgb(152, 152, 152);
   text-align: center;
   border: 1px solid rgb(240, 240, 240);
   color: rgb(255, 255, 255);
+} */
+div > .dua {
+  margin-left: 30px;
 }
 .nav {
   display: flex;
-  height: 40px;
+  height: 75px;
   color: rgb(255, 255, 255);
 }
 .nav div {
+  display: flex;
   background: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
@@ -42,12 +48,13 @@ h5 {
 }
 .search {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
 }
-.icon > i {
+.icon > a {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 10px;
+  padding-left: 20px;
 }
 .header {
   height: 250px;
@@ -73,7 +80,7 @@ h5 {
 .descrip {
   color: black;
   height: 110px;
-  width: auto;
+  width: 400px;
 }
 .konten {
   display: flex;
@@ -81,39 +88,56 @@ h5 {
   width: 200px;
 }
 .konten h2 {
-  color: rgb(255, 255, 255);
   text-align: center;
 }
 .dua {
   height: 200px;
-  border: 1px solid #fff;
   padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+div > .right {
+  padding-left: 40px;
 }
 .tengah {
   display: flex;
-  height: 90px;
+  height: 60px;
   margin-left: 30px;
+  align-items: center;
+}
+
+.dees {
+  display: flex;
+  padding-left: 10px;
+  margin-left: 40px;
+  height: 10px;
+  justify-content: left;
   align-items: center;
 }
 .tengah > img {
   border-radius: 100%;
-  margin-right: 30px;
 }
-.tengah-dua {
+.tiga {
   display: flex;
-  height: 50px;
-  align-items: center;
-}
-.tengah-dua > h6 {
-  margin-left: 48px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 .empat {
-  margin-top:30px;
+  margin-top: 10px;
   align-items: center;
 }
-.navbar-nav > a {
+hr {
+  margin-top: 50px;
+}
+li {
+  display: flex;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-left: 210px;
+}
+a {
   text-decoration: none;
-  text-align: center;
+  color: black;
 }
 .pro-one {
   height: 410px;
